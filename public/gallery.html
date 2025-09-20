@@ -195,7 +195,7 @@ const BACKEND = window.location.origin.includes('render.com') ||
       // Update stats
       document.getElementById('totalReports').textContent = items.length;
       document.getElementById('inProgress').textContent = Math.floor(items.length * 1);
-      document.getElementById('resolved').textContent = Math.floor(items.length * 0.3);
+      document.getElementById('resolved').textContent = Math.floor(items.length * 0);
 
       // Render gallery grid
       const grid = document.getElementById('galleryGrid');
